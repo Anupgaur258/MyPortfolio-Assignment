@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- EXTERNAL JAVASCRIPT // cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js -->
+    <link rel="icon" href="anup_logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="script.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- <section id="loader">
+        <img src="anup_logo.png" alt="logo">
+    </section> -->
+    <section class="main">
+        <div class="container">
+            <nav>
+                <div class="nav-container">
+                    <div class="logo montserrat"> <span class="orange montserrat">Anup</span> Kumar</div>
+                    <div class="links-container">
+                        <a href="#about-me">About</a>
+                        <a href="#projects">My Work</a>
+                        <a href="#experience-section">Qualification</a>
+                        <a href="contact_me.html">Contact</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="social-media-links-container" id="social-media-links-container">
+                <div class="icons-cotainer">
+                    <a href="https://www.instagram.com/anupgour258/" target="_blank"><img src="images/insta.svg" alt="insta"></a>
+                    <a href="https://x.com/Anupgour258?t=aCEOAbSrnEqGDccjtZ1N0g&s=08" target="_blank"><img src="images/twitter.svg" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/in/anup258/" target="_blank"><img src="images/linkedin.svg" alt="linkdin"></a>
+                </div>
+                <div class="follow-me">Follow me</div>
+            </div>
+            <div class="showcase-container">
+                <div class="showcase-image">
+                    <!-- <img src="images/showcaseImage.svg" alt="showcase"> -->
+                    <model-viewer class="model" alt="laptop" src="images/laptop.xml" shadow-intensity="0" camera-controls touch-action="pan-y" camera-orbit="-45deg 65deg 9m" poster="images/showcaseimage.svg" environment-image="images/dancing_hall_2k.hdr" exposure="1.5" autoplay
+                        animation-name="animation1" auto-rotate disable-zoom disable-tap></model-viewer>
+                </div>
+                <div class="showcase-text">
+                    <h1 class="montserrat"> Hi, You found me!
+                        <br> I am <span class="orange montserrat">Front end Developer</span> & <span class="orange montserrat">Designer</span> from India
+                    </h1>
+                    <a href="images/Smit_Prajapati_Resume.pdf" download="Smit_Prajapati_Resume">
+                        <div class="download-resume">
+                            Resume
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="mail-button mail-button1">
+                <a href="mailto:akwebtech9@gmail.com"><img src="images/mail.svg" alt="mail"></a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <div class="about-me-container">
+                <div style="margin-top:-10px;" class="about-me-title">
+                    About <br> Anup Kumar
+                </div>
+                <br>
+                <br>
+                <br>
+                <div class="about-me-flex-container">
+                    <div class="about-me-image">
+                        <div class="back-div"></div>
+                        <div class="black-image" data-aos="zoom-in"><img src="black_white_image.jpg" alt="black"></div>
+                        <div class="main-image"><img src="newimage.jpg" alt="smit"></div>
+                    </div>
+                    <div class="about-me-content" data-aos="zoom-in">
+
+                        <div class="logo" style="margin-top:-20px;"><img src="anup_logo.png" alt="smit"></div>
+
+                        <div class="text" style="color:white">
+                            Web developer specializing in dynamic, visually engaging sites/apps. Expert in front-end to back-end for seamless user experiences. Explore my projects to see my code in action
+                            <br><br> I'm Anup, a web developer. I enjoy crafting designs and specialize in making them user-friendly and visually appealing.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mail-button mail-button2">
+                    <a href="mailto:prajapatismit2906@gmail.com"><img src="images/mail.svg" alt="mail"></a>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="skills">
+        <div class="container">
+            <div class="title-skills">
+                Skills
+            </div>
+            <div class="skills-flex-container">
+                <div class="box" data-aos="flip-left">
+                    <div class="image">
+                        <img src="expressjs.jpg" alt="photoshop">
+                    </div>
+                    <div class="title">Express js</div>
+                </div>
+                <div class="box" data-aos="flip-right">
+                    <div class="image">
+                        <img src="mongo.jpg" alt="photoshop">
+                    </div>
+                    <div class="title">MongoDB</div>
+                </div>
+                <div class="box" data-aos="flip-left">
+                    <div class="image">
+                        <img src="images/bootstrap_logo.jpg" alt="photoshop">
+                    </div>
+                    <div class="title">Bootstrap </div>
+                </div>
+                <div class="box" data-aos="flip-right">
+                    <div class="image">
+                        <img src="images/figma.png" alt="photoshop">
+                    </div>
+                    <div class="title">Figma</div>
+                </div>
+                <div class="box" data-aos="flip-left">
+                    <div class="image">
+                        <img src="images/html.png" alt="photoshop">
+                    </div>
+                    <div class="title">HTML</div>
+                </div>
+                <div class="box" data-aos="flip-right">
+                    <div class="image">
+                        <img src="images/css.png" alt="photoshop">
+                    </div>
+                    <div class="title">CSS</div>
+                </div>
+                <div class="box" data-aos="flip-left">
+                    <div class="image">
+                        <img src="images/js.png" alt="photoshop">
+                    </div>
+                    <div class="title">JavaScript</div>
+                </div>
+                <div class="box" data-aos="flip-right">
+                    <div class="image">
+                        <img src="images/react_js_logo.png" alt="photoshop">
+                    </div>
+                    <div class="title">React js</div>
+                </div>
+                <div class="box" data-aos="flip-left">
+                    <div class="image">
+                        <img src="images/illustrator.png" alt="photoshop">
+                    </div>
+                    <div class="title">Illustrator</div>
+                </div>
+                <div class="box" data-aos="flip-right">
+                    <div class="image">
+                        <img src="images/java_logo.jpg" alt="photoshop">
+                    </div>
+                    <div class="title">Java </div>
+                </div>
+                <div class="box" data-aos="flip-left">
+                    <div class="image">
+                        <img src="talwindcsspng - Copy.png" alt="photoshop">
+                    </div>
+                    <div class="title"> Talwind</div>
+                </div>
+                <div class="box" data-aos="flip-right">
+                    <div class="image">
+                        <img src="images/nodejs_logo.jpg" alt="photoshop">
+                    </div>
+                    <div class="title"> Node js</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- my work  -->
+
+
+
+    <!-- project section  -->
+    <br>
+    <section class="skills">
+        <div class="container">
+            <div class="title-skills">
+                Projects
+            </div>
+        </div>
+    </section>
+
+
+    <div class="project_card" id="projects">
+        <!-- first card     -->
+        <div class="card" data-aos="flip-right">
+            <div class=""> <img src="movieAppImg.png" class="cardimage"></div>
+            <div class="card__descr-wrapper">
+                <p class="card__title">
+                    Movie App
+                </p>
+                <span class="card__descr">
+                    <span> IMDb-integrated movie app for quick access to film details</span>
+                </span>
+                <div class="card__links">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg">&lt;<path d="M562.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L405.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C189.5 251.2 196 330 246 380c56.5 56.5 148 56.5 204.5 0L562.8 267.7zM43.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C57 372 57 321 88.5 289.5L200.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C416.5 260.8 410 182 360 132c-56.5-56.5-148-56.5-204.5 0L43.2 244.3z"></path></svg>
+                        <a class="link" href="https://imdbwebb.netlify.app/">Preview</a>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                        <a class="link" href="https://github.com/Anupgaur258/imdbwebb">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- second card  -->
+        <div class="card" data-aos="flip-right">
+            <div class="">
+                <img src="E_commerce_img.jpg" class="cardimage">
+            </div>
+            <div class="card__descr-wrapper">
+                <p class="card__title">
+                    E-commerce Web
+                </p>
+                <p class="card__descr">
+                    Seamless e-commerce platform for easy online shopping
+                    <div class="card__links">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg">&lt;<path d="M562.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L405.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C189.5 251.2 196 330 246 380c56.5 56.5 148 56.5 204.5 0L562.8 267.7zM43.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C57 372 57 321 88.5 289.5L200.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C416.5 260.8 410 182 360 132c-56.5-56.5-148-56.5-204.5 0L43.2 244.3z"></path></svg>
+                            <a class="link" href="https://anuptrendz.netlify.app/">Preview</a>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                            <a class="link" href="https://github.com/Anupgaur258/AnupTrendz-E-commerce">Code</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <!-- third card  -->
+        <div class="card" data-aos="flip-right">
+            <div class="card__img">
+                <div class=""> <img src="ai_image_prompt.jpg" class="cardimage"></div>
+            </div>
+            <div class="card__descr-wrapper">
+                <p class="card__title">
+                    AI Tool
+                </p>
+                <p class="card__descr">
+                    Prompt-based website resembling ChatGPT, built with React JS.
+                </p>
+                <div class="card__links">
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg">&lt;<path d="M562.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L405.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C189.5 251.2 196 330 246 380c56.5 56.5 148 56.5 204.5 0L562.8 267.7zM43.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C57 372 57 321 88.5 289.5L200.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C416.5 260.8 410 182 360 132c-56.5-56.5-148-56.5-204.5 0L43.2 244.3z"></path></svg>
+                        <a class="link" href="https://anupamai.netlify.app/">Preview</a>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                        <a class="link" href="https://github.com/Anupgaur258/Ai-tool">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fourth card -->
+        <div class="card" data-aos="flip-right">
+            <div class="card__img">
+                <div class=""> <img src="netfliximage.jpg" class="cardimage"></div>
+            </div>
+            <div class="card__descr-wrapper">
+                <p class="card__title">
+                    Netflix-Ui Design
+                </p>
+                <p class="card__descr">
+                    Netflix-inspired UI for captivating streaming
+                    <div class="card_psum do_links">
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="svg">&lt;<path d="M562.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L405.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C189.5 251.2 196 330 246 380c56.5 56.5 148 56.5 204.5 0L562.8 267.7zM43.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C57 372 57 321 88.5 289.5L200.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C416.5 260.8 410 182 360 132c-56.5-56.5-148-56.5-204.5 0L43.2 244.3z"></path></svg>
+                            <a class="link" href="https://netflixui.netlify.app/" style="color:white">Preview</a>
+                        </div>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="svg"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+                            <a class="link" href="https://github.com/Anupgaur258/Netflix-Ui" style="color:white">Code</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+
+
+
+    <!-- qualification section  -->
+
+
+
+    <div id="experience-section" class="main-section bg-lightgrey">
+        <div class="container">
+            <div class="section">
+                <h2 class="section-heading"> <span style="color:orangered">Ed</span><span style="color:yellow">uc</span><span style="color: orange">at</span> <span style="color: greenyellow">ion</span></h2>
+                <hr>
+                <br>
+                <div class="experience-list" data-aos="zoom-in">
+                    <div class="experience-content">
+                        <h2>Raajshree Institute of Management & Technology, Bareilly U.P</h2>
+                        <h4>2023-2026</h4>
+                        <p>B-Tech</p>
+                    </div>
+                </div>
+                <div class="experience-list" data-aos="zoom-in-up">
+                    <div class="experience-content">
+                        <h2>Government Polytechnic Roorkee, Baheri Bareilly </h2>
+                        <h4>2019-2022 with (76.9 %)</h4>
+                        <p>Diploma (CSE) </p>
+                    </div>
+                </div>
+                <div class="experience-list" data-aos="zoom-in">
+                    <div class="experience-content">
+                        <h2>Saraswati Niketan Inter College, Jaunpur</h2>
+                        <h4>2019 with (70%) </h4>
+                        <p>Intermediate</p>
+                    </div>
+                </div>
+                <div class="experience-list" data-aos="zoom-in-up">
+                    <div class="experience-content">
+                        <h2>Saraswati Niketan Inter Collage, Jaunpur</h2>
+                        <h4>2017 with (82.5%)</h4>
+                        <p>High School</p>
+                    </div>
+                </div>
+                <!-- Include other education items here -->
+            </div>
+            <div class="section">
+                <h2 class="section-heading"><span style="color:orange">Ex</span><span style="color:yellow">pe</span><span style="color:greenyellow">ri</span><span style="color:orangered">en</span><span style="color:yellow">ce</span></h2>
+                <hr>
+                <br>
+                <div class="experience-list" data-aos="zoom-in">
+                    <div class="experience-content">
+                        <h2>Zeblearn Technology Pvt. Ltd. , Noida</h2>
+                        <h4>July 2023 - Dec. 2023</h4>
+                        <p>Web Developer</p>
+                    </div>
+                </div>
+                <div class="experience-list" data-aos="zoom-in-up">
+                    <div class="experience-content">
+                        <h2>Brainseed International School</h2>
+                        <h4>July 2022 - April 2023</h4>
+                        <p>Computer Operator</p>
+                    </div>
+                </div>
+                <!-- Include other experience items here -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer section  -->
+
+
+
+    <section class="footer" id="footer">
+        <div class="container">
+            <div class="footer-container">
+                <a href="index.html"><img class="logo-footer" src="anup_logo.png" alt="smit"></a>
+                <div class="footer-social-media-links">
+                    <a href="https://www.instagram.com/anupgour258/" target="_blank"><img src="images/insta.svg" alt="insta"></a>
+                    <a href="" target="_blank"><img src="images/twitter.svg" alt="twitter"></a>
+                    <a href="https://www.linkedin.com/in/anup258/" target="_blank"><img src="images/linkedin.svg" alt="linkedin"></a>
+                    <a href="akwebtech9@gmail.com"><img src="images/mail-footer.svg" alt="mail"></a>
+                </div>
+                <div class="footer-nav-links">
+                    <a href="#about-me">About</a>
+                    <a href="#projects">My Work</a>
+                    <a href="#experience-section">Qualification</a>
+                    <a href="contact_me.html">Contact</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
